@@ -1,10 +1,24 @@
 # Whole-goal drift control
 
+## Use the implementation
+
+The runnable entry for an agent is [SKILL.md](SKILL.md). It directs the agent to perform the task with existing authorized tools; it is not a daemon or a deterministic classifier. An LLM/agent host capable of reading skill files and using the required tools is needed. No sibling repository is required.
+
+1. Obtain this repository through your normal authorized Git workflow, retaining all package files together. Review the skill and resources before adoption.
+2. Install the repository folder as a skill named `goal-drift-control` through your host's documented skill installer or skill directory. Do not overwrite an existing customized installation; compare and preserve it first. Hosts without skill discovery can explicitly read `SKILL.md` and its task-relevant resources from the checked-out folder.
+3. Invoke it on an actual authorized work item: “Use $goal-drift-control to review the actual candidate against the original requirement and apply the disposition to the next authorized action.” Supply the original goal, existing work-item/destination reference and permitted effects. Let the agent recover available facts rather than supplying fictitious observations.
+4. Inspect the actual output and tool effects. A successful file load or syntax check is not actual-use acceptance. Missing tools/authority must be reported precisely rather than replaced with a simulated success.
+
+Updates replace only this package after review; preserve customization, active obligations and history. Removing its skill folder stops future discovery after the host refreshes, not obligations or pending work already created. Follow the host's documented reload behavior; no current-session activation is promised.
+
+Implementation and real-use evidence belong on the [owning work item](https://github.com/jack61714z/goal-drift-control/issues/1) and its linked candidate review. Until those observations are saved, actual use remains pending. Explicit invocation does not prove automatic selection or background event coverage.
+
+
 ## Purpose and adoption boundary
 
 Use this guide to keep a bounded task and its cumulative direction aligned with the user's original outcome. It can be used with existing requirements, work orders, reviews, and ordinary prose. It does not require another document, a new template, a tracker, a common schema/runtime, or synchronized versions of other guidance.
 
-This is an unactivated, independently maintained document. It grants no operational authority and does not change installed rules or prove improved behavior. Use and redistribution are governed by the MIT license in this repository. Existing host permissions, approvals, privacy rules, writer constraints, and required review independence remain effective. Progressive Investigation (PI), an investigation method, and an existing Chat–Codex handoff system (C2C) remain independent; their active contracts are unchanged.
+This repository includes an independently invocable agent skill. The package is not activated merely by publication. It grants no operational authority and does not change installed rules or prove improved behavior. Use and redistribution are governed by the MIT license in this repository. Existing host permissions, approvals, privacy rules, writer constraints, and required review independence remain effective. Progressive Investigation (PI), an investigation method, and an existing Chat–Codex handoff system (C2C) remain independent; their active contracts are unchanged.
 
 ## Recover the actual task
 
@@ -67,3 +81,4 @@ Replace or remove this guide independently under the active host's authority. Pr
 Initial public document revision: 2026-10-12. Maintainer: jack61714z. Corrections may be proposed through this repository. Revised independently; sibling versions are not prerequisites. Publication does not activate this guidance, and behavioral efficacy remains unverified.
 
 This document includes adapted policy and record material from [codex-with-chatgpt](https://github.com/jack61714z/codex-with-chatgpt), licensed under MIT, Copyright (c) 2026 codex-with-chatgpt contributors. New contributions are Copyright (c) 2026 jack61714z. See [LICENSE](LICENSE) for the complete MIT terms and preserved notices.
+
