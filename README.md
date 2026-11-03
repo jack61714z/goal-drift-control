@@ -11,7 +11,7 @@ The runnable entry for an agent is [SKILL.md](SKILL.md). It directs the agent to
 
 Updates replace only this package after review; preserve customization, active obligations and history. Removing its skill folder stops future discovery after the host refreshes, not obligations or pending work already created. Follow the host's documented reload behavior; no current-session activation is promised.
 
-Implementation and real-use evidence belong on the [owning work item](https://github.com/jack61714z/goal-drift-control/issues/1) and its linked candidate review. Check that work item's live evidence for what was actually used, saved and accepted; an open issue does not mean no use occurred, and a closed issue does not establish general reliability. Explicit invocation does not prove automatic selection or background event coverage.
+The [observed candidate review](https://github.com/jack61714z/goal-drift-control/pull/2#issuecomment-6121386268) allowed legitimate Draft publication while withholding unsupported completion. The [bounded acceptance review](https://github.com/jack61714z/goal-drift-control/pull/2#issuecomment-6121577867) preserves that the earlier README-only failure was user-detected and that Chat reviewed supplied material. [Issue #1](https://github.com/jack61714z/goal-drift-control/issues/1) is closed for observed decision-control use; autonomous prevention and sustained drift reduction remain unestablished.
 
 
 ## Purpose and adoption boundary
