@@ -45,6 +45,6 @@ Keep source delivery, installation/loading, actual use, accepted result and pare
 
 Use the caller's existing record and authorized destination. State the original goal, cumulative range, evidence actually inspected versus reported, per-dimension reasoning, findings, disposition, operation actually allowed/changed/held and remaining owner/action. Save and read back the record if authorized and required; otherwise disclose the delivery gap.
 
-Attribute user-supplied corrections as such, not autonomous discovery. A successful bounded use does not prove sustained drift prevention. Do not close an unfinished parent because this review or one slice is complete. Return to the original deliverable's next incomplete transition.
+Attribute user-supplied corrections as such, not autonomous discovery. A successful bounded use does not prove sustained drift prevention. Do not close an unfinished parent because this review or one slice is complete. Return to the original deliverable's next incomplete transition. For example, repeated prompt changes can produce locally passing documents while the original equal-quality efficiency goal remains unmet. Stop that optimization path or redirect to an evidenced causal mechanism within scope; another passing report is not the missing outcome.
 
 This package operates independently. It does not own tracker mechanics, closure learning, transport or record schemas. Removing it does not remove already-authorized scope decisions or review duties.
