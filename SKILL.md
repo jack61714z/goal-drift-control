@@ -1,6 +1,6 @@
 ---
 name: goal-drift-control
-description: Review a proposed dispatch, repair, acceptance, publication or completion against the original goal and cumulative work, and make supported drift change the next authorized action.
+description: Use when a dispatch, repair, acceptance or completion may diverge from the original goal after cumulative changes; inspect actual effects and decide the next authorized action.
 ---
 
 # Goal drift control
@@ -16,6 +16,8 @@ Identify the actual decision owner and allowed effects. Do not infer authority f
 If a material source is unavailable, retain UNKNOWN for the affected claim and name the smallest observation that would resolve it. Continue unrelated authorized work. A real defect does not reopen deferred work, and broader understanding does not authorize broader implementation.
 
 ## Inspect both directions
+
+For an agent-run candidate, use supported exact Chat/Codex session reads when available and distinguish child task completion, parent completion, reviewer acceptance and the original outcome. An amended evidence claim should correct the affected conclusion without rerunning settled checks. When successive tests repeat the same unsupported optimization hypothesis, change the decision or stop that experiment rather than treating another report as progress.
 
 Compare original requirements to actual implementation and observations, then compare each material change to the requirement that justifies it. Review the entire cumulative direction, not only the latest patch or test summary.
 
